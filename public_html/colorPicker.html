@@ -65,16 +65,30 @@
         left:0px;
     }
     #staticColor{
-       position:absolute;
-       height:50px;
-       width:72px;
-       top:0px;
-       left:73px;
+        position:absolute;
+        height:50px;
+        width:72px;
+        top:0px;
+        left:73px;
     }
     #detailsTable{
         width: 100%;
         position:absolute;
         top:55px;
+    }
+    #detailsTable tbody tr{
+        padding: 0;
+        margin: 0;
+        font-size: 75%;
+    }
+    #detailsTable tbody tr td{
+        padding: 0;
+        margin: 0;
+        font-size: 80%;
+    }
+    #detailsTable tbody tr td input{
+        padding: 0;
+        margin: 0;
     }
     #hexBox,
     #redBox,
@@ -85,7 +99,7 @@
     #valueBox{
         margin:0.3em;
     }
-    
+
 </style>
 <div id="colorPickerMain">
     <div id="gradientBox">
@@ -104,48 +118,50 @@
         </div>
         <br />
         <table id="detailsTable">
-            <tr>
-                <td>Hex: </td>
-                <td>
-                    <input size="8" type="text" id="hexBox"/>
-                </td>
-            </tr>
-            <tr>
-                <td>Red: </td>
-                <td>
-                    <input size="8" type="text" id="redBox"/>
-                </td>
-            </tr>
-            <tr>
-                <td>Green: </td>
-                <td>
-                    <input size="8" type="text" id="greenBox" />
-                </td>
-            </tr>
-            <tr>
-                <td>Blue: </td>
-                <td>
-                    <input size="8" type="text" id="blueBox"/>
-                </td>
-            </tr>
-            <tr>
-                <td>Hue: </td>
-                <td>
-                    <input size="8" type="text" id="hueBox"/>
-                </td>
-            </tr>
-            <tr>
-                <td>Saturation: </td>
-                <td>
-                    <input size="8" type="text" id="saturationBox" />
-                </td>
-            </tr>
-            <tr>
-                <td>Value: </td>
-                <td>
-                    <input size="8" type="text" id="valueBox" />
-                </td>
-            </tr>
+            <tbody>
+                <tr>
+                    <td>Hex:</td>
+                    <td>
+                        <input size="8" type="text" id="hexBox"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Red:</td>
+                    <td>
+                        <input size="8" type="text" id="redBox"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Green:</td>
+                    <td>
+                        <input size="8" type="text" id="greenBox" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Blue:</td>
+                    <td>
+                        <input size="8" type="text" id="blueBox"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hue:</td>
+                    <td>
+                        <input size="8" type="text" id="hueBox"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Saturation:</td>
+                    <td>
+                        <input size="8" type="text" id="saturationBox" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Value:</td>
+                    <td>
+                        <input size="8" type="text" id="valueBox" />
+                    </td>
+                </tr>
+            </tbody>
         </table>
     </div>
 </div>

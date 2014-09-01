@@ -682,7 +682,7 @@ function fixGradientImg()
     fixPNG(doc.getElementById("gradientImg"));
 }
 
-function openModal(el) {
+function openColorPickerWindow(el) {
     input = el;
     if (input.value !== undefined && input.value !== "" && input.value !== null) {
         currentColor = Colors.ColorFromHex(input.value);
@@ -720,14 +720,14 @@ if (window.addEventListener) {
     window.addEventListener('click', function(e) {
         var el = e.target;
         if (el.getAttribute('data-color') === "color") {
-            openModal(el);
+            openColorPickerWindow(el);
         }
     });
 } else if (window.attachEvent) {
     window.attachEvent('onclick', function(e) {
         var el = e.target;
         if (el.getAttribute('data-color') === "color") {
-            openModal(el);
+            openColorPickerWindow(el);
         }
     });
 }

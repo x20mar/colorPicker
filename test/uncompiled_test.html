@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <script src="../public_html/colorPicker.js"></script>
+        <script>
+            function addInput(){
+                var i = document.createElement("input");
+                i.setAttribute("type", "text");
+                i.setAttribute("data-color", "color");
+                document.getElementById("inputDiv").appendChild(i);
+            }
+        </script>
+    </head>
+    <body>
+        <div>Color Picker Test Script</div>
+        <input type="button" name="Add" value="Add" onClick="addInput()"/>
+        <div id="inputDiv"></div>
+    </body>
+</html>

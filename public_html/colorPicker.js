@@ -1,3 +1,10 @@
+/**
+ * @name ColorPicker.js
+ * @author Omar Ali
+ * @version 0.1.0
+ * @site https://github.com/x20mar/colorPicker
+ * @licence Apache Licence v2
+ */
 
 var Colors = new function()
 {

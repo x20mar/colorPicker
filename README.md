@@ -6,7 +6,7 @@ This is pure javascript color picker with no framework. The idea behind it is fo
 To Use
 ------
 
-Include the javascript file in your application and then attach the following attribute to your text input box to use it
+Include the javascript file (Located in the build folder) in your application and then attach the following attribute to your text input box to use it
 
 ```HTML
 data-color="color"

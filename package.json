@@ -1,0 +1,32 @@
+{
+  "name": "colorPicker",
+  "version": "0.1.0",
+  "description": "Pure Javascript Color Picker with no framework",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-uglify": "^0.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x20mar/colorPicker.git"
+  },
+  "keywords": [
+    "color",
+    "picker"
+  ],
+  "author": "Omar Ali",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/x20mar/colorPicker/issues"
+  },
+  "homepage": "https://github.com/x20mar/colorPicker"
+}
